@@ -66,6 +66,7 @@ const Texts = () => {
   return (
     <>
       <mesh
+        //@ts-ignore
         ref={staticTopPlane}
         // position={[0, three.viewport.height * 0.5, 0]}
         // rotation={[Math.PI * 0.5, 0, 0]}
@@ -73,6 +74,7 @@ const Texts = () => {
         <planeGeometry />
       </mesh>
       <mesh
+        //@ts-ignore
         ref={staticLeftPlane}
 
         // position={[0, three.viewport.height * 0.5, 0]}
