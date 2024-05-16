@@ -21,9 +21,9 @@ export default function Home() {
         <ambientLight />
 
         <Physics gravity={[0, 1, 0]}>
-          <Debug color="black" scale={1.1}>
-            <Texts />
-          </Debug>
+          {/* <Debug color="black" scale={1.1}> */}
+          <Texts />
+          {/* </Debug> */}
         </Physics>
         <OrbitControls />
         <Environment preset="city" />
