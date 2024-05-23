@@ -35,7 +35,7 @@ export default function RootLayout({
 
         <meta property="og:title" content="HBD JIWOO♥" />
         <meta property="og:description" content="지우님 생일 축하합니당" />
-        <meta name="og:image" content={"/image/jiwoo_desc.png"} />
+        <meta name="og:image" content="/assets/image/jiwoo_desc.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
