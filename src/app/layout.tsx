@@ -32,6 +32,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="og:image" content={"/assets/jiwoo_desc.png"} />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
