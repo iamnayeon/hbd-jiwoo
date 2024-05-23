@@ -24,7 +24,7 @@ export default function Home() {
           <Physics gravity={[0, 1, 0]}>
             <Texts />
           </Physics>
-          <OrbitControls />
+          {/* <OrbitControls /> */}
           <Environment preset="city" />
         </Suspense>
       </Canvas>
