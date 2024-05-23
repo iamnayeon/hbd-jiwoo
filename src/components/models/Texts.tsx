@@ -20,7 +20,7 @@ const Texts = () => {
   });
 
   useEffect(() => {
-    const deviceorientationHandler = (e) => {
+    const deviceorientationHandler = (e: DeviceOrientationEvent) => {
       const rotateDegrees = e.alpha; // alpha: rotation around z-axis
       const leftToRight = e.gamma ?? 0; // gamma: left to right
       const frontToBack = e.beta ?? 0; // beta: front b
