@@ -32,6 +32,9 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ffffff" />
+
+        <meta property="og:title" content="HBD JIWOO♥" />
+        <meta property="og:description" content="지우님 생일 축하합니당" />
         <meta name="og:image" content={"/image/jiwoo_desc.png"} />
       </head>
       <body className={inter.className}>{children}</body>
